@@ -1,6 +1,5 @@
 # web1
 
-//ARAI token : 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
 -------------git명령어
 //https://www.youtube.com/watch?v=ZMgLZUYd8Cw&t=514s
 
