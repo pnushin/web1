@@ -50,7 +50,7 @@ docker pull mysql
 docker pull tomcat:9.0.60-jdk17-temurin-focal //java jdk 17 version download
 //도커 mysql 실행
 
-docker run --name ARAI_MYSQL -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pwd10404 -d mysql
+docker run --name ARAI_MYSQL -p 3306:3306 -e MYSQL_ROOT_PASSWORD='password' -d mysql
 
 //실행중인 컨테이너 접속
 docker exec -it (CONTAINER ID) /bin/bash
@@ -90,7 +90,7 @@ init-connect='SET NAMES utf8'
 character-set-server = utf8
 }
 
-//mysql -u root -p pwd10404 bbs < bbsdump.sql
+//mysql -u root -p 'password' bbs < bbsdump.sql
 //mysql 접속
 mysql -u root -p
 {
